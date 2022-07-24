@@ -1,20 +1,21 @@
-h1 {
-    margin: 0 auto;
+.txt {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .cover {
     display: flex;
 }
+
 .slider {
-        border: 2px solid black;
-    max-width: 75%;
+    max-width: 80%;
     margin: 0 auto;
     overflow: hidden;
 }
 
 .sliderLine {
     display: flex;
-    background-color: green;
     transition: all ease 1s;
 }
 

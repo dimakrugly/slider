@@ -12,11 +12,14 @@ function init() {
         item.style.width = width + 'px';
         item.style.height = 'auto';
     });
+    rollSlider ();
     console.log(width);
 }
 
 window.addEventListener('resize', init);
 init();
+
+
 
 document.querySelector('.sliderPrev').addEventListener('click', function () {
     count--;
